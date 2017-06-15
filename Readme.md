@@ -27,6 +27,7 @@ A library to easily scrape metadata from an article on the web using Open Graph 
 Using **ScrapeMeta**, this metadata...
 
     {
+      "favicon": "https://assets.bwbx.io/business/public/images/favicons/favicon-16x16-cc2a6c3317.png"
       "author": "Ellen Huet",
       "date": "2016-05-24T18:00:03.894Z",
       "description": "The HR startups go to war.",
@@ -44,6 +45,9 @@ Using **ScrapeMeta**, this metadata...
 ## Metadata
 
 Here is a list of the metadata that **Metascraper** collects by default:
+
+- **`favicon`** — eg. `https://example.com/icon.ico`<br/>
+  The favicon of the web. It will default to the highest resolution possible.
 
 - **`author`** — eg. `Noah Kulwin`<br/>
   A human-readable representation of the author's name.
