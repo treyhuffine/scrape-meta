@@ -1,7 +1,7 @@
 {
   "name": "scrape-meta",
   "description": "A library to easily scrape metadata from an article on the web using Open Graph metadata, regular HTML metadata, and series of fallbacks.",
-  "version": "0.0.4",
+  "version": "0.1.4",
   "repository": "git://github.com/treyhuffine/scrape-meta.git",
   "license": "MIT",
   "main": "./dist/index.js",
