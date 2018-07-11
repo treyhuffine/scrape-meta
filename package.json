@@ -11,7 +11,7 @@
     "build:dist": "babel ./lib --out-dir ./dist",
     "clean": "rm -rf ./dist ./node_modules ./test/support/build.js",
     "compare": "node ./support/comparison",
-    "prepublish": "npm run build:dist",
+    "prepare": "npm run build:dist",
     "release": "np",
     "test": "npm-run-all build tests:server tests:browser",
     "tests:browser": "mocha-phantomjs --reporter spec --timeout 5000 ./test/support/browser.html",
